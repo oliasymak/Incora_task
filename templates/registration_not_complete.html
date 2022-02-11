@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="container">
+    <form action = "/users" method="post">
+  First name:<br>
+  <input type="text" id="user_fname" name="user_fname" >
+  <br>
+  Last name:<br>
+  <input type="text" id="user_lname" name="user_lname" >
+  <br>
+        Email:<br>
+  <input type="text" id="user_email" name="user_email" >
+  <br>
+        Phone:<br>
+  <input type="text" id="user_phone" name="user_phone" >
+  <br>
+        Password:<br>
+  <input type="text" id="user_password" name="user_password" >
+  <br>
+  <input type="submit" value="Register">
+    </form></div>
+
+    <style>
+    .container{
+    position: relative;
+    top: 54px;
+    text-align: center;
+    background-color: white;
+}
+    form {
+  top: 50px;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+}
+</style>
+    <style>
+    .container1{
+    position: relative;
+    top: 70px;
+    text-align: center;
+
+    height: 30px;
+
+
+    margin-left: 40%;
+    margin-right: 15%;
+    width: 20%;
+
+    background-color: white;
+    background: #FF0000;
+    }
+.login{
+  position: absolute;
+  top: 300px;
+  left: 450px;
+
+}
+
+.search{
+  position: absolute;
+  top: 340px;
+  left: 450px;
+
+}
+.update{
+  position: absolute;
+  top: 380px;
+  left: 450px;
+
+}
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="container1" id="layer1">Registration NOT complete <i class="fa fa-ban fa-fw"></i></div>
+<div class="login"><form  action="/login" method="get"><button class="button1">login</button></form></div>
+    <div class="search"><form  action="/search_id" method="get"><button class="button2">search (id)</button></form></div>
+    <div class="update"><form  action="/update" method="get"><button class="button3">update</button></form></div>
+</head>
+<body>
+
+</body>
+</html>

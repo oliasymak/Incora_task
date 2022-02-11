@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="container">
+    <form action = "/updated" method="post">
+      ID:<br>
+  <input type="text" id="user_id" name="user_id" >
+  <br>
+        First name:<br>
+  <input type="text" id="user_fname" name="user_fname" >
+  <br>
+        Last name:<br>
+  <input type="text" id="user_lname" name="user_lname" >
+  <br>
+        Email:<br>
+  <input type="text" id="user_email" name="user_email" >
+  <br>
+        Phone:<br>
+  <input type="text" id="user_phone" name="user_phone" >
+  <br>
+        Password:<br>
+  <input type="text" id="user_password" name="user_password" >
+  <br>
+  <input type="submit" value="Update">
+    </form></div>
+
+    <style>
+    .container{
+    position: relative;
+    top: 54px;
+    text-align: center;
+    background-color: white;
+    }
+    form {
+  top: 50px;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+}
+.login{
+  position: absolute;
+  top: 330px;
+  left: 450px;
+
+}
+
+.search{
+  position: absolute;
+  top: 370px;
+  left: 450px;
+
+}
+
+</style>
+<div class="login"><form  action="/login" method="get"><button class="button1">login</button></form></div>
+    <div class="search"><form  action="/search_id" method="get"><button class="button2">search (id)</button></form></div>
+
+</head>
+<body>
+
+</body>
+</html>

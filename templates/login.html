@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="container">
+    <form action = "/loginned" method="post">
+
+        Email:<br>
+  <input type="text" id="user_email" name="user_email" >
+  <br>
+
+        Password:<br>
+  <input type="text" id="user_password" name="user_password" >
+  <br>
+  <input type="submit" value="Login">
+    </form></div>
+
+    <style>
+    .container{
+    position: relative;
+    top: 54px;
+    text-align: center;
+    background-color: white;
+    }
+    form {
+  top: 50px;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+}
+.register{
+  position: absolute;
+  top: 200px;
+  left: 450px;
+
+}
+
+.search{
+  position: absolute;
+  top: 240px;
+  left: 450px;
+
+}
+.update{
+  position: absolute;
+  top: 280px;
+  left: 450px;
+
+}
+
+</style>
+<div class="register"><form  action="/" method="get"><button class="button1">register</button></form></div>
+<div class="search"><form  action="/search_id" method="get"><button class="button2">search (id)</button></form></div>
+<div class="update"><form  action="/update" method="get"><button class="button3">update</button></form></div>
+</head>
+<body>
+
+</body>
+</html>
